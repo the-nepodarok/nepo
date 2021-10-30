@@ -56,14 +56,14 @@ color: #c97e3c;
   transition: 500ms, background-color 500ms;
 }
 header a:hover {
-color: #fff;
   border-color: #eae9f2;
   background-color: transparent;
   transition: 500ms, background-color 500ms;
 }
-footer a:hover {color: #fff;}
 
 .page-header {
+  display: grid;
+  height: 280px;
   margin-bottom: 40px;
   color: #333333;
   background-color: #c97e3c;
@@ -227,3 +227,21 @@ p.contacts-name {
   background-color: transparent;
   transition: 500ms, background-color 500ms;
 }
+
+a:active, a:hover {
+color: cyan;
+}
+
+/*header a {
+background-color: #c97e3c;
+/*box-shadow: 6px 6px 1px rgba(132, 122, 11, 0.2);
+}*/
+
+main a:active, main a:hover {
+color: #c97e3c;
+}
+
+/*footer a:hover, header a:hover {
+background-color: #c97e3c;
+box-shadow: 6px 6px 1px rgba(58, 185, 194, 0.4);
+}*/

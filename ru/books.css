@@ -1,0 +1,23 @@
+﻿.so-far {
+margin-top: 10px;
+text-align: center;
+margin-bottom: 30px;
+}
+.diva {display: flex; justify-content: center;}
+
+.books {
+display: grid;
+grid-template-columns: 1fr 1fr;
+max-width: 70%;
+margin: 20px;
+margin-right: 70px;
+gap: 340px;
+align-items: start;
+text-align: justify;
+}
+
+.book-img {
+margin-bottom: 0;
+}
+.books p, .books h3 {margin-top: 0;}
+.kai-img {margin-bottom: 15px;} .kai p {padding-top: 2px;} .grow p {padding-top: 5px;}
