@@ -11,6 +11,10 @@
     $: ru = !!$page.url.href.includes('ru');
 </script>
 
+<svelte:head>
+    <link rel="stylesheet" href="{base}/css/style.css">
+</svelte:head>
+
 <header class="page-header" class:alt>
     <Section className="header-section">
         <h1 class="page-title">nepo here!</h1>
