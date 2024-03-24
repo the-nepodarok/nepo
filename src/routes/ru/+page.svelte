@@ -11,7 +11,7 @@
 
 <Main>
     <Section className="about">
-        <h2 class="section-title">Tiny bit about me</h2>
+        <h2 class="section-title">Немного обо мне</h2>
         <a href="https://github.com/the-nepodarok/">
             <img class="about-image" src="{base}/img/github.png" width="147" height="147" alt="the_nepodarok">
         </a>
@@ -20,7 +20,7 @@
                 <q>Everyone is terrible, so we're all gonna be terrible.</q>
 <!--                <img class="nepo" src="/src/lib/img/img.gif" alt="the_nepodarok">-->
             </p>
-            <p class="greetings">An aspiring back-end || full-stack developer; nice to meet ya!</p>
+            <p class="greetings">Крутой back-end || full-stack разработчик 😎</p>
         </div>
     </Section>
 
@@ -28,11 +28,11 @@
 
     <Section className="status">
         <h2 class="section-title">Current mood:</h2>
-        <StatusBar text="#UpForStuff"/>
+        <StatusBar text="#мытутзажжём"/>
     </Section>
 
     <Section className="skills">
-        <h2 class="section-title skills-title">Stuff I know:</h2>
+        <h2 class="section-title skills-title">Изучал и работал с:</h2>
         <div class="sub-section">
             <div>
                 <h3 class="sub-section-title">Back-End</h3>
