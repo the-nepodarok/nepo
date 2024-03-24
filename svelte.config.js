@@ -12,7 +12,7 @@ const config = {
 			fallback: 'src/404.html'
 		}),
 		paths: {
-			base: '',
+			base: '/the-nepodarok-github/',
 		}
 	}
 };
