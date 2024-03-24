@@ -12,7 +12,8 @@
 </script>
 
 <svelte:head>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="{base}/favicon.png" />
+    <link rel="stylesheet" href="{base}/css/style.css">
 </svelte:head>
 
 <header class="page-header" class:alt>
