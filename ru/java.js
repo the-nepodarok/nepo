@@ -11,7 +11,7 @@ style1.classList.toggle('dark-page-header');
 style2.classList.toggle('dark-page-footer');
 };
 
-let like = document.querySelector('.like');
+let like = document.querySelector('.emoticon');
 let counter = 1;
 
 let numb = document.createElement('span');
